@@ -14,7 +14,7 @@
 	<h1>Halaman Pegawai</h1>
  
 	<p>Halo <b><?php echo $_SESSION['username']; ?></b> Anda telah login sebagai <b><?php echo $_SESSION['level']; ?></b>.</p>
-	<a href="ASU.php">LOGOUT</a>
+	<a href="LOGOUT.php">LOGOUT</a>
  
 	<br/>
 	<br/>
