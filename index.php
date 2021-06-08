@@ -24,8 +24,8 @@
 			<input type="text" name="username" class="form_login" placeholder="Username .." required="required">
  
 			<label>Password</label>
-			<input type="password" name="password" class="form_login" placeholder="Password .." required="required">
- 
+			<input type="password" name="password" id="inputpassword" class="form_login" placeholder="Password .." required="required">
+				<input type="checkbox" onclick="myFunction()"><label id="show">Show Pass</label>
 			<input type="submit" class="tombol_login" value="LOGIN">
  
 			<br/>
@@ -37,6 +37,15 @@
 		
 	</div>
  
- 
+	<script>
+        function myFunction() {
+            var x = document.getElementById("inputpassword");
+            if (x.type === "password") {
+                x.type = "text";
+            } else {
+                x.type = "password";
+            }
+        }
+    </script>
 </body>
 </html>
