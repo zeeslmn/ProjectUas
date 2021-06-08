@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<title>Membuat Login Multi User Level Dengan PHP dan MySQLi - www.malasngoding.com</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
